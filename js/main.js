@@ -1,24 +1,24 @@
 $(document).ready(function() {
 
   //a href
-  $(".accordion > a").on("click", function() {
+  $(".set > a").on("click", function() {
     if ($(this).hasClass("active")) {
       $(this).removeClass("active");
       $(this)
         .siblings(".content")
         .slideUp(200);
-      $(".accordion > a i")
+      $(".set > a i")
         .removeClass("fa-minus")
         .addClass("fa-plus");
     } else {
-      $(".accordion > a i")
+      $(".set > a i")
         .removeClass("fa-minus")
         .addClass("fa-plus");
       $(this)
         .find("i")
         .removeClass("fa-plus")
         .addClass("fa-minus");
-      $(".accordion > a").removeClass("active");
+      $(".set > a").removeClass("active");
       $(this).addClass("active");
       $(".content").slideUp(200);
       $(this)

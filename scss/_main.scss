@@ -65,9 +65,6 @@ $font-2: 'Raleway', sans-serif;
   }
 }
 
-html {
-  scroll-behavior: smooth !important;
-}
 
 body {
   background-color: $ag-grey;
@@ -96,17 +93,8 @@ section:not(:last-child) {
 }
 
 .brand {
-  display: inline-block;
-  height: 33px;
-  overflow: hidden;
   &-1 {
     color: #E50817;
-  }
-  &-2 {
-    color: #1DB954;
-  }
-  &-3 {
-    color: #F5BA18;
   }
 }
 
@@ -180,21 +168,14 @@ section:not(:last-child) {
 }
 
 // Accordion
-.accordion {
-  .icon {
-    position: absolute;
-    top: 18px;
-    right: 12px;
-  }
-}
-.accordion{
+.set{
   position: relative;
   width: 100%;
   height: auto;
   border-radius: 18px;
   margin-bottom: 8px;
 }
-.accordion > a{
+.set > a{
   display: block;
   padding: 12px;
   text-decoration: none;
@@ -204,11 +185,11 @@ section:not(:last-child) {
   -moz-transition:all 0.2s linear;
   transition:all 0.2s linear;
 }
-.accordion > a i{
+.set > a i{
   float: right;
   margin-top: 2px;
 }
-.accordion > a.active{
+.set > a.active{
   background: rgba(38, 133, 220, 0.04);
   color: $ag-blue;
   border-top-left-radius: 18px;
