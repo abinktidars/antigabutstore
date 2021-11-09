@@ -11,6 +11,7 @@
 
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/slick.css" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,31 +20,46 @@
 </head>
 <body>
 
-  <main>
-
-    <!-- Header Nav-->
-    <nav>
-      <div class="container">
-        <div class="header">
-          <div class="header__logo">
-            <img src="images/antigabut.svg" alt="">
-          </div>
-        </div>
-      </div>
-    </nav>
+  <main>    
 
     <!-- Cover-->
     <section class="cover">
+      <!-- Header Nav-->
+      <nav>
+        <div class="container">
+          <div class="header">
+            <div class="header__logo">
+              <img src="images/antigabut.svg" alt="">
+            </div>
+            <!--Hamburger Menu-->
+            <div class="menu__mobile">
+              <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>    
+
+      <!-- Navigation -->
+      <div class="navigation">
+        <ul>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
       <div class="container">
         <div class="cover__head">
           <h1 class="title title__main">
             Pilihan tepat untuk berlangganan 
             <span class="brand">
-              <div class="brand__item">
-                <div class="brand-1"> Netflix </div>
-                <div class="brand-2"> Spotify </div>
-                <div class="brand-3"> Viu </div>
-              </div>
+              <div class="brand__item brand__item-1"> Netflix </div>
+              <div class="brand__item brand__item-2"> Spotify </div>
+              <div class="brand__item brand__item-3"> Viu </div>
             </span>
           </h1>
           <p class="text">
@@ -67,13 +83,15 @@
         <div class="cover__images">
           <div class="display">
             <img src="images/display-1.png" alt="">
+            <img src="images/display-2.png" alt="">
+            <img src="images/display-3.png" alt="">
           </div>          
         </div>
       </div>
     </section>
 
     <!-- Subscription -->
-    <section class="subscription">
+    <section class="subscription" id="layanan">
       <div class="container">
         <div class="subscription__head">
           <h1 class="title title__sub">
@@ -84,7 +102,55 @@
           </p>
         </div>
         <div class="subscription__content">
-          <div class="wrapper">
+          <div class="wrapper carousel-slider">
+            <div class="card card__item">
+              <div class="card__head">
+                <img src="images/brand-1.png" alt="">
+              </div>
+              <div class="card__text">
+                <p>Nikmati semua tayangan film terbaik  dengan kualitas Ultra HD 4K di ponsel, laptop hingga TV kamu</p>
+              </div>
+              <div class="card__price">
+                <div class="old">
+                  Rp186.000/bulan
+                </div>
+                <div class="new">
+                  Rp45.000/bulan
+                </div>
+              </div>
+            </div>
+            <div class="card card__item">
+              <div class="card__head">
+                <img src="images/brand-2.png" alt="">
+              </div>
+              <div class="card__text">
+                <p>Dengarkan musik favorit kamu tanpa gangguan iklan dan nikmati fitur play-offline serta skip tak terbatas</p>
+              </div>
+              <div class="card__price">
+                <div class="old">
+                  Rp140.000/bulan
+                </div>
+                <div class="new">
+                  Rp19.000/bulan
+                </div>
+              </div>
+            </div>
+            <div class="card card__item">
+              <div class="card__head">
+                <img src="images/brand-3.png" alt="">
+              </div>
+              <div class="card__text">
+                <p>Nikmati semua tayangan film terbaik  dengan kualitas Ultra HD 4K di ponsel, laptop hingga TV kamu</p>
+              </div>
+              <div class="card__price">
+                <div class="old">
+                  Rp100.000/bulan
+                </div>
+                <div class="new">
+                  Rp55.000/bulan
+                </div>
+              </div>
+            </div>
             <div class="card card__item">
               <div class="card__head">
                 <img src="images/brand-1.png" alt="">
@@ -153,7 +219,7 @@
     </section>
 
     <!-- Client -->
-    <section class="client">
+    <section class="client" id="testimoni">
       <div class="container">
         <div class="client__head">
           <h1 class="title title__sub">
@@ -164,7 +230,7 @@
           </p>
         </div>
         <div class="client__content">
-          <div class="wrapper">
+          <div class="wrapper carousel-slider">
             <div class="card card__item testimoni">
               <div class="card__text">
                 <p>“Biasanya kalau mau beli Netflix, Spotify dll secara legal tuh suka males soalnya kadang gak punya CC. Akhirnya nemu solusi karena ada Antigabut! Thank you Antigabut store”</p>
@@ -212,7 +278,7 @@
     </section>
 
     <!-- FAQ -->
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="container">
         <div class="faq__head">
           <h1 class="title title__sub">
@@ -334,6 +400,7 @@
   <!-- Plugin Js -->
   <script src="js/jquery.min.js"  type="text/javascript"></script>
   <script src="js/main.js"  type="text/javascript"></script>
+  <script src="js/slick.min.js"  type="text/javascript"></script>
 
 </body>
 </html>

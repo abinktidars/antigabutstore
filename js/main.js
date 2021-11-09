@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  //a href
+  // Accordion
   $(".accordion > a").on("click", function() {
     if ($(this).hasClass("active")) {
       $(this).removeClass("active");
@@ -27,22 +27,25 @@ $(document).ready(function() {
     }
   });
   
-  // div set
-  // $(".set").on("click", function() {
-  //   if ($(this).hasClass("active")) {
-  //     $(this).removeClass("active");
-  //     $(this)
-  //       .siblings(".content")
-  //       .slideUp(200);
-  //   } else {
-  //     $(".set").removeClass("active");
-  //     $(this).addClass("active");
-  //     $(".content").slideUp(200);
-  //     $(this)
-  //       .siblings(".content")
-  //       .slideDown(200);
-  //   }
-  // });
+  // Hamburger Menu 
+  $('#hamburger').click(function() {
+    $(this).toggleClass('open');
+    $(".navigation").toggleClass("show");
+  });
+  
+  $('.navigation li').click(function() {
+    $(".navigation").toggleClass("show");
+    $("#hamburger").toggleClass('open');
+  });
+
+  // Carousel Slider
+  $(".carousel-slider").slick({
+    centerMode: true,
+    slidesToShow: 1,
+    dots: false,
+    arrows: false,
+    autoplay: false
+  });
 
 });
   
