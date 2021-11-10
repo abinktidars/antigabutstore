@@ -239,53 +239,6 @@ section:not(:last-child) {
   min-width: 260px;
 }
 
-// Accordion
-.accordion {
-  .icon {
-    position: absolute;
-    top: 18px;
-    right: 12px;
-  }
-}
-.accordion{
-  position: relative;
-  width: 100%;
-  height: auto;
-  border-radius: 18px;
-  margin-bottom: 8px;
-}
-.accordion > a{
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-  color: #555;
-  font-weight: 600;
-  -webkit-transition:all 0.2s linear;
-  -moz-transition:all 0.2s linear;
-  transition:all 0.2s linear;
-}
-.accordion > a i{
-  float: right;
-  margin-top: 2px;
-}
-.accordion > a.active{
-  background: rgba(38, 133, 220, 0.04);
-  color: $ag-blue;
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
-}
-.content{
-  border-bottom-left-radius: 18px;
-  border-bottom-right-radius: 18px;
-  background: rgba(38, 133, 220, 0.04);
-  display:none;
-}
-.content p{
-  padding: 10px 15px;
-  margin: 0;
-  color: #333;
-}
-
 // Biodata 
 .biodata {
   background-color: #152135;
@@ -469,4 +422,120 @@ input, select {
   0%   { top: 0px; }
   33%  { top: -48px; }
   66% { top: -88px; }
+}
+
+// Accordion
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  color: #212529;
+  font-weight: 600;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .accordion-button {
+    transition: none;
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: $ag-blue;
+  background-color: rgba(38,133,220,0.04);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg);
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .accordion-button::after {
+    transition: none;
+  }
+}
+.accordion-button:hover {
+  z-index: 2;
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+
+.accordion-item {
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+.accordion-item:not(:first-of-type) {
+  border-top: 0;
+}
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+.accordion-item:last-of-type .accordion-collapse {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.accordion-body {
+  padding: 12px;
+  background-color: rgba(38,133,220,0.04);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.accordion-flush .accordion-collapse {
+  border-width: 0;
+}
+.accordion-flush .accordion-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+.accordion-flush .accordion-item:first-child {
+  border-top: 0;
+}
+.accordion-flush .accordion-item:last-child {
+  border-bottom: 0;
+}
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .collapsing {
+    transition: none;
+  }
+}
+
+.collapse:not(.show) {
+  display: none;
 }
