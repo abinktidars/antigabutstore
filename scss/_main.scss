@@ -8,10 +8,9 @@ $ag-shadow: 0px 1px 24px rgba(49, 53, 59, 0.08);
 $ag-text-gray: rgba(0, 0, 0, 0.68);
 $ag-text-gray-2: rgba(0, 0, 0, 0.32);;
 
-
 // Grid
 $gap: 1rem;
-// 3.0 Media Query
+
 @mixin max-responsive($media) {
   @media (max-width: $media) {
     @content;
@@ -197,10 +196,14 @@ section:not(:last-child) {
 
 .card {
   padding: 1rem 20px;
-  box-shadow: $ag-shadow;
+  box-shadow: 0px 1px 24px rgba(49, 53, 59, 0.02);
+  transition: box-shadow 0.3s ease;
   border-radius: 1rem;
   flex: 1;
   margin: 10px 4px;
+  &.slick-active {
+    box-shadow: 0px 1px 24px rgba(49, 53, 59, 0.08);
+  }
   &__text {
     color: $ag-text-gray;
     p {
@@ -237,6 +240,7 @@ section:not(:last-child) {
 .testimoni {
   background: url(../images/right-quote.png) no-repeat bottom right;
   min-width: 260px;
+  height: 260px!important;
 }
 
 // Biodata 
@@ -282,6 +286,18 @@ input, select {
     // box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
   }
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 18px 14px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+
+
 
 .copyright {
   text-align: center;

@@ -70,13 +70,14 @@
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
 
     <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/form.css" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <link type="text/css" rel="stylesheet" href="css/slick.css" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family =Raleway:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -448,15 +449,15 @@
             </div>
             <div class="form__group">
               <label for="">Paket Langganan*</label>
-              <select id="package" name="package" required>
-                <option value="neflix">NEFLIX</option>
+              <select class="form-select" id="package" name="package" required>
+                <option value="neflix">NETFLIX</option>
                 <option value="spotify">SPOTIFY</option>
                 <option value="viu">VIU</option>
               </select>
             </div>
             <div class="form__group">
               <label for="">Tentukan masa berlangganan*</label>
-              <select id="periode" name="periode" required>
+              <select class="form-select" id="periode" name="periode" required>
                 <option value="1 Bulan">1 Bulan</option>
                 <option value="2 Bulan">2 Bulan</option>
                 <option value="3 Bulan">3 Bulan</option>
@@ -472,15 +473,14 @@
               </select>
             </div>
             <div class="form__group">
-              <!-- <a href="https://api.whatsapp.com/send?phone=6285854859500&text=Halo%20Anti%20Gabut%20Store!%20Saya%20ingin%20berlangganan%20paket%20streaming..." class="btn btn-primary">Pesan Sekarang</a> -->     
-              <input type='submit' value='Pesan Sekarang' class="btn btn-primary">
+              <input type='submit' value='Pesan Lewat Whatsapp' class="btn btn-primary form-select">
             </div>
           </form>
         </div>
 
         <div class="copyright">
           AntiGabut Store © 2021 All right reserved.  <br>
-          Development by <a href="https://elevendigital.id" target="_blank" rel="noopener noreferrer"></a> Eleven Digital Indonesia
+          Powered by <a href="" target="_blank" rel="noopener noreferrer"> simpl. Design Studio </a>
         </div>
       </div>
     </section>
