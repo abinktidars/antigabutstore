@@ -212,54 +212,6 @@
                 </div>
               </div>
             </div>
-            <div class="card card__item">
-              <div class="card__head">
-                <img src="images/brand-1.png" alt="">
-              </div>
-              <div class="card__text">
-                <p>Nikmati semua tayangan film terbaik  dengan kualitas Ultra HD 4K di ponsel, laptop hingga TV kamu</p>
-              </div>
-              <div class="card__price">
-                <div class="old">
-                  Rp186.000/bulan
-                </div>
-                <div class="new">
-                  Rp45.000/bulan
-                </div>
-              </div>
-            </div>
-            <div class="card card__item">
-              <div class="card__head">
-                <img src="images/brand-2.png" alt="">
-              </div>
-              <div class="card__text">
-                <p>Dengarkan musik favorit kamu tanpa gangguan iklan dan nikmati fitur play-offline serta skip tak terbatas</p>
-              </div>
-              <div class="card__price">
-                <div class="old">
-                  Rp140.000/bulan
-                </div>
-                <div class="new">
-                  Rp19.000/bulan
-                </div>
-              </div>
-            </div>
-            <div class="card card__item">
-              <div class="card__head">
-                <img src="images/brand-3.png" alt="">
-              </div>
-              <div class="card__text">
-                <p>Nikmati semua tayangan film terbaik  dengan kualitas Ultra HD 4K di ponsel, laptop hingga TV kamu</p>
-              </div>
-              <div class="card__price">
-                <div class="old">
-                  Rp100.000/bulan
-                </div>
-                <div class="new">
-                  Rp55.000/bulan
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div class="subscription__cta">
@@ -294,29 +246,56 @@
           <div class="wrapper carousel-slider">
             <div class="card card__item testimoni">
               <div class="card__text">
-                <p>“Biasanya kalau mau beli Netflix, Spotify dll secara legal tuh suka males soalnya kadang gak punya CC. Akhirnya nemu solusi karena ada Antigabut! Thank you Antigabut store”</p>
+                <p>“Biasanya kalo langganan Netflix suka ribet karena harus pake kartu kredit, tapi kalo order via antigabutstore jadi lebih mudah dan murah. Proses pengerjaan cepet banget nggak sampai 24 Jam udah dikirim akunnya.”</p>
               </div>
               <div class="card__data">
-                <div class="name">Juminten</div>
-                <div class="profesi">Ibu Rumah Tangga</div>
+                <div class="name">Dewi</div>
+                <!-- <div class="profesi">Ibu Rumah Tangga</div> -->
               </div>
             </div>
             <div class="card card__item testimoni">
               <div class="card__text">
-                <p>“Dengarkan musik favorit kamu tanpa gangguan iklan dan nikmati fitur play-offline serta skip tak terbatas”</p>
+                <p>“Kalo langganan Netflix buat Smart TV suka males karena harganya mahal, tapi kalo pake Antigabutstore jadi lebih murah karena bisa patungan dengan customer yang lain.”</p>
               </div>
               <div class="card__data">
-                <div class="name">Suryatna</div>
-                <div class="profesi">DJ Lokal</div>
+                <div class="name">Devi Nofianti</div>
+                <!-- <div class="profesi">DJ Lokal</div> -->
               </div>
             </div>
             <div class="card card__item testimoni">
               <div class="card__text">
-                <p>“Biasanya kalau mau beli Netflix, Spotify dll secara legal tuh suka males soalnya kadang gak punya CC. Akhirnya nemu solusi karena ada Antigabut! Thank you Antigabut store”</p>
+                <p>"Suka ribet kalo nyari temen langganan buat spotify, tapi semenjak ada antigabutstore sekarang gaperlu ribet lagi kalo  mau nyari temen patungan beli spotify.”</p>
               </div>
               <div class="card__data">
-                <div class="name">Marfuah</div>
-                <div class="profesi">Sosialita</div>
+                <div class="name">Rahadian</div>
+                <!-- <div class="profesi">Sosialita</div> -->
+              </div>
+            </div>
+            <div class="card card__item testimoni">
+              <div class="card__text">
+                <p>"Prosesnya cepet admin nya responsif udah setahun langganan disini dan puas banget sama pelayanannya.</p>
+              </div>
+              <div class="card__data">
+                <div class="name">Yeni Lendra</div>
+                <!-- <div class="profesi">Sosialita</div> -->
+              </div>
+            </div>
+            <div class="card card__item testimoni">
+              <div class="card__text">
+                <p>"Kalo disini prosesnya dijamin legal bukan akun free trial yang dijual jadi akunnya pasti aman dan nggak bakal balik jadi Free lagi. Sukses ya buat antigabutstore”</p>
+              </div>
+              <div class="card__data">
+                <div class="name">Taufc</div>
+                <!-- <div class="profesi">Sosialita</div> -->
+              </div>
+            </div>
+            <div class="card card__item testimoni">
+              <div class="card__text">
+                <p>Suka ribet kalo nyari temen langganan buat spotify, tapi semenjak ada antigabutstore sekarang gaperlu ribet lagi kalo  mau nyari temen patungan beli spotify.”</p>
+              </div>
+              <div class="card__data">
+                <div class="name">Rahadian</div>
+                <!-- <div class="profesi">Sosialita</div> -->
               </div>
             </div>
           </div>
@@ -351,72 +330,72 @@
             <div class="accordion-item">
               <div class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Berapa lama proses berlangganan di Antigabut? 
+                  Berapa Lama Proses Berlangganan di Antigabutstore ?
                 </button>
               </div>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Kepuasan dan kepercayaan pelanggan adalah nilai yang selalu kami jaga dengan selalu meningkatkan kualitas layanan terbaik
+                  Proses Hanya Berlangsung 1-2 Jam tergantung antrian. Maksimal 1x24 Jam
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <div class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Apa saja metode pembayaran yang bisa digunakan?
+                  Mengapa Harganya Bisa Lebih Murah ?
                 </button>
               </div>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Kepuasan dan kepercayaan pelanggan adalah nilai yang selalu kami jaga dengan selalu meningkatkan kualitas layanan terbaik
+                  Kami menggunakan sistem sharing dalam pembelian paket berlangganan. Jadi kamu sama seperti patungan dengan customer lain. Sehingga harga yang ditawarkan bisa lebih murah.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <div class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Bagaimana kami mendapatkan email dan password?
+                  Apa Saja Metode Pembayaran Yang Diberikan ?
                 </button>
               </div>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Kepuasan dan kepercayaan pelanggan adalah nilai yang selalu kami jaga dengan selalu meningkatkan kualitas layanan terbaik
+                  Pembayaran via transfer dan gopay, OVO, Link Aja
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <div class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Bagaimana mekanisme pemesanan di Antigabut?
+                  Apakah Akun Yang diberikan aman ?
                 </button>
               </div>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Kepuasan dan kepercayaan pelanggan adalah nilai yang selalu kami jaga dengan selalu meningkatkan kualitas layanan terbaik
+                  Akun dijamin aman karena kami membayar langsung kepada penyedia layanan dengan cara yang Legal dan Full Bergaransi
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <div class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Berapa lama proses berlangganan di Antigabut?
+                  Email dan Password Darimana ?
                 </button>
               </div>
               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Kepuasan dan kepercayaan pelanggan adalah nilai yang selalu kami jaga dengan selalu meningkatkan kualitas layanan terbaik
+                  Email dan password berasal dari kami jadi kamu tinggal pakai dan tidak perlu ribet dengan kartu kredit
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <div class="accordion-header" id="headingSix">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Apakah akun yang kami dapatkan 100% aman?
+                  Bagaimana Cara Pemesanan di Antigabutstore ?
                 </button>
               </div>
               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Kepuasan dan kepercayaan pelanggan adalah nilai yang selalu kami jaga dengan selalu meningkatkan kualitas layanan terbaik
+                  Kamu tinggal klik tombol pesan sekarang dan melakukan pembayaran, setelah itu akun akan dikirim ke kamu.
                 </div>
               </div>
             </div>
